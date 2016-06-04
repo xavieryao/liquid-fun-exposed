@@ -25,8 +25,7 @@ struct b2FixtureDef {
 
 %nodefaultctor;      // don't create default constructors
 %nodefaultdtor;      // don't create default destructors
-/// b2Fixture class
-class b2Fixture {
-};
+
 %clearnodefaultdtor; // Re-enable default constructors
 %clearnodefaultctor; // Re-enable default destructors
+%include "../../../Box2D/Box2D/Dynamics/b2Fixture.h"
